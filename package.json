@@ -10,11 +10,14 @@
   "author": "Moheet Shendarkar",
   "license": "ISC",
   "dependencies": {
+    "@supabase/supabase-js": "^2.39.2",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-async-errors": "^3.1.1",
     "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
     "nodemon": "^3.0.2"
   }
 }
