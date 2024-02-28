@@ -33,6 +33,7 @@ const registerUser = async (req, res) => {
   res.status(StatusCodes.CREATED).json({
     user: {
       username: data[0].username,
+      userId: data[0].id,
       token,
     },
   });
@@ -66,6 +67,7 @@ const loginUser = async (req, res) => {
   res.status(StatusCodes.OK).json({
     user: {
       username: data[0].username,
+      userId: data[0].id,
       token,
     },
   });
