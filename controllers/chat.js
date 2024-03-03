@@ -3,7 +3,6 @@ const supabase = require("../db/connect");
 
 const getChat = async (req, res) => {
   const { roomId } = req.query;
-  console.log(roomId);
   if (!roomId) {
     throw new BadRequestError("Please pass all fields");
   }
